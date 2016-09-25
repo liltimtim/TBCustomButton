@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TBCustomButton_Tests' do
+  pod 'TBCustomButton', :path => '../'
+  
+  
+end

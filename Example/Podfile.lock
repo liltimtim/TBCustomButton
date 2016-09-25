@@ -1,0 +1,16 @@
+PODS:
+  - TBCustomButton (0.1.0)
+
+DEPENDENCIES:
+  - TBCustomButton (from `../`)
+
+EXTERNAL SOURCES:
+  TBCustomButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TBCustomButton: ba28d6334d69b2b25a3f3f808cf89f51dfab5b4f
+
+PODFILE CHECKSUM: 079c9a6ab8852a591d0d24cbab661c8f83e2c146
+
+COCOAPODS: 1.1.0.rc.2

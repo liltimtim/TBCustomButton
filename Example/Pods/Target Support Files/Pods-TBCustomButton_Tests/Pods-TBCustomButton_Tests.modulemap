@@ -1,0 +1,6 @@
+framework module Pods_TBCustomButton_Tests {
+  umbrella header "Pods-TBCustomButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

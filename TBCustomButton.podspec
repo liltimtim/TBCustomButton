@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TBCustomButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TBCustomButton.'
+  s.summary          = 'Designable UIButtons out of the box.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Customizable buttons and features not readily available with iOS in the Storyboard builder.'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TBCustomButton'
+  s.homepage         = 'https://github.com/liltimtim/TBCustomButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Timothy Barrett' => 'liltimtim@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/TBCustomButton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liltimtim/TBCustomButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'TBCustomButton/Classes/**/*'
   

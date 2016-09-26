@@ -1,7 +1,15 @@
+use_frameworks!
+
+def import_pods
+    
+end
 
 target 'TBCustomButton_Tests' do
-  use_frameworks!
-  pod 'TBCustomButton', :path => '../'
-  
-  
+    pod 'TBCustomButton', :path => '../'
+    import_pods
+    target 'TBCustomButton_Tests' do
+        inherit! :search_paths
+        import_pods
+        
+    end
 end

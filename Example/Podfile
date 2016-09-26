@@ -1,15 +1,10 @@
-use_frameworks!
 
-def import_pods
-    
-end
 
 target 'TBCustomButton_Tests' do
-    pod 'TBCustomButton', :path => '../'
-    import_pods
-    target 'TBCustomButton_Tests' do
-        inherit! :search_paths
-        import_pods
-        
-    end
+  use_frameworks!
+  inherit! :search_paths
+  pod 'TBCustomButton', :path => '../'
+  
+  
 end
+

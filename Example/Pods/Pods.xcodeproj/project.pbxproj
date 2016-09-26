@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C99F3DB969376429199AC4427D1EC1D /* TBCustomButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C8FC29F58584747A050F44773F5B35 /* TBCustomButton-dummy.m */; };
-		6734A4BC1D98326B00650CE2 /* UIButton+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734A4BB1D98326B00650CE2 /* UIButton+Designable.swift */; };
 		989DEB4F51EC87EA7E45FCAEE338F96A /* Pods-TBCustomButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42524DA6614BB73E4C004AA57E2F108C /* Pods-TBCustomButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6283887491483CDAADDB08080CEAAB9 /* TBCustomButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55D55D698706A3650739F60E4AD8BE4B /* TBCustomButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B91313C4DE4D49BCF222BE018453211F /* Pods-TBCustomButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B417A1E6559B591DDC1A61296CAC0751 /* Pods-TBCustomButton_Tests-dummy.m */; };
+		DCD3CA899CEFD2E207076FFBA6FA72D3 /* UIButton+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D63603E1BA3E04D60BB73F6C93F880 /* UIButton+Designable.swift */; };
 		EC56432F5FC30F15992019F73356A086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F4C5469CB0D8D4D498C972F87803F8BC /* TBCustomButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C8FC29F58584747A050F44773F5B35 /* TBCustomButton-dummy.m */; };
 		F933F43E53A552AECBE4F2C9F657971A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +36,9 @@
 		42524DA6614BB73E4C004AA57E2F108C /* Pods-TBCustomButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBCustomButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		44A07FC67667260F73A8F9AAE3D5F0A3 /* Pods_TBCustomButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBCustomButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D55D698706A3650739F60E4AD8BE4B /* TBCustomButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBCustomButton-umbrella.h"; sourceTree = "<group>"; };
-		6734A4BB1D98326B00650CE2 /* UIButton+Designable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Designable.swift"; sourceTree = "<group>"; };
 		6D639BC782FDD7DB6897A347DA6FA223 /* TBCustomButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TBCustomButton.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D63603E1BA3E04D60BB73F6C93F880 /* UIButton+Designable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Designable.swift"; sourceTree = "<group>"; };
 		B417A1E6559B591DDC1A61296CAC0751 /* Pods-TBCustomButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBCustomButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		B460B13B99339000158799C9ECA1E1C3 /* Pods-TBCustomButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBCustomButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3E53036B8AD52D656229A39DD8EE935 /* TBCustomButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBCustomButton.xcconfig; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		18183524E176A069CF107523D1013547 /* TBCustomButton */ = {
 			isa = PBXGroup;
 			children = (
-				86861ACA7F1C4C234BFADE8D107F7A09 /* Classes */,
+				E71E85E338209D7C2C50C95DBECBBAE6 /* Classes */,
 			);
 			path = TBCustomButton;
 			sourceTree = "<group>";
@@ -156,14 +156,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		86861ACA7F1C4C234BFADE8D107F7A09 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6734A4BB1D98326B00650CE2 /* UIButton+Designable.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +170,14 @@
 				1DB02F0335DE6047E1FC7A72B99D75B0 /* TBCustomButton */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E71E85E338209D7C2C50C95DBECBBAE6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A2D63603E1BA3E04D60BB73F6C93F880 /* UIButton+Designable.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67B763F6BD41111C459ADA07B65CE4C8 /* Build configuration list for PBXNativeTarget "TBCustomButton" */;
 			buildPhases = (
-				417F64DE8B414DB0D7C79CB4B6F8D70E /* Sources */,
+				CBEEB32AA34BF79BEC317975812CB099 /* Sources */,
 				B9C39849F581BE11071CE0CE0D07EE48 /* Frameworks */,
 				7B2C9E5F7DCF832CA2932562F57A1AC4 /* Headers */,
 			);
@@ -245,14 +245,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					40C15D49F880A6A1CCFFC161E8BCBC29 = {
-						LastSwiftMigration = 0800;
-					};
-					C29B0353C3CB168DC123B2D819A099FF = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -273,20 +265,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		417F64DE8B414DB0D7C79CB4B6F8D70E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C99F3DB969376429199AC4427D1EC1D /* TBCustomButton-dummy.m in Sources */,
-				6734A4BC1D98326B00650CE2 /* UIButton+Designable.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		97D3E4842A8BCF44B5328961ED63FA1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B91313C4DE4D49BCF222BE018453211F /* Pods-TBCustomButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEEB32AA34BF79BEC317975812CB099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C5469CB0D8D4D498C972F87803F8BC /* TBCustomButton-dummy.m in Sources */,
+				DCD3CA899CEFD2E207076FFBA6FA72D3 /* UIButton+Designable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +294,39 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		13BC3866500E83B1BDE587E98A7CE694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E53036B8AD52D656229A39DD8EE935 /* TBCustomButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TBCustomButton/TBCustomButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBCustomButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBCustomButton/TBCustomButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TBCustomButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		41FCC5E9268C3E94EF642314AEAE0757 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EDFA3F8B900CCD7A3CC2B5530834F35E /* Pods-TBCustomButton_Tests.release.xcconfig */;
@@ -331,40 +356,6 @@
 				PRODUCT_NAME = Pods_TBCustomButton_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		45ACC7A25242E32CF11C1A779946EFE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3E53036B8AD52D656229A39DD8EE935 /* TBCustomButton.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TBCustomButton/TBCustomButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TBCustomButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TBCustomButton/TBCustomButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TBCustomButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -401,7 +392,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -492,16 +482,15 @@
 			};
 			name = Debug;
 		};
-		FD21E2D5B344DDB5248FFFFE421E6BBC /* Debug */ = {
+		ACF27E001A620E4C1285982844B9473D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3E53036B8AD52D656229A39DD8EE935 /* TBCustomButton.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -514,17 +503,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TBCustomButton/TBCustomButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = TBCustomButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -541,8 +529,8 @@
 		67B763F6BD41111C459ADA07B65CE4C8 /* Build configuration list for PBXNativeTarget "TBCustomButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD21E2D5B344DDB5248FFFFE421E6BBC /* Debug */,
-				45ACC7A25242E32CF11C1A779946EFE4 /* Release */,
+				13BC3866500E83B1BDE587E98A7CE694 /* Debug */,
+				ACF27E001A620E4C1285982844B9473D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

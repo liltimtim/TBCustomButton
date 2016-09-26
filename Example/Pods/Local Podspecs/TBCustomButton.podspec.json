@@ -1,9 +1,9 @@
 {
   "name": "TBCustomButton",
   "version": "0.1.0",
-  "summary": "A short description of TBCustomButton.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TBCustomButton",
+  "summary": "Designable UIButtons out of the box.",
+  "description": "Customizable buttons and features not readily available with iOS in the Storyboard builder.",
+  "homepage": "https://github.com/liltimtim/TBCustomButton",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Timothy Barrett": "liltimtim@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TBCustomButton.git",
+    "git": "https://github.com/liltimtim/TBCustomButton.git",
     "tag": "0.1.0"
   },
   "platforms": {
